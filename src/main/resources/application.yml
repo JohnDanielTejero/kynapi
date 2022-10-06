@@ -3,7 +3,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/kyn_db
         username: root
-        password: Ks1auhJ!
+        password: 
         driver-class-name: com.mysql.jdbc.Driver
     jpa: 
         hibernate: 
@@ -17,8 +17,8 @@ spring:
           client:
             registration:
                 google:
-                  clientId: 920346137967-c5v3iqotvkbrr2i1h7uvqnsqqoac7ot1.apps.googleusercontent.com
-                  clientSecret: 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
+                  clientId: 
+                  clientSecret: 
                   redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
                   scope:
                       - email
